@@ -1,0 +1,12 @@
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
