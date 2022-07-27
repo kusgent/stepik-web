@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    background-color: #15638F;
+}
+
+.card {
+    width: 200px;
+    height: 322px;
+    margin-top: 68px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.card__image {
+    width: 200px;
+    height: 142.36px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
