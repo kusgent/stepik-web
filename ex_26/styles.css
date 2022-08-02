@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Exo 2', sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main {
+    flex: 3 0 auto;
+    background: #db0d0d;
+}
+
+.footer {
+    flex: 1 0 auto;
+    background: #05A88D;
+    /* height: 50px; */
+}
