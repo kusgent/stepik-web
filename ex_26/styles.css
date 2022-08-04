@@ -16,12 +16,35 @@ body {
 }
 
 .main {
-    flex: 3 0 auto;
-    background: #db0d0d;
+    flex: 1 0 auto;
 }
 
 .footer {
-    flex: 1 0 auto;
+    flex: 0 0 auto;
     background: #05A88D;
-    /* height: 50px; */
+    
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    border-bottom: 1px solid #FFFFFF;
+
+}
+
+.footer__left {
+    
+}
+
+.footer__right {
+
+}
+
+.footer__bottom {
+    margin: 0 40px;
+}
+
+a {
+    text-decoration: none;
 }
