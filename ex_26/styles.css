@@ -16,13 +16,12 @@ body {
 }
 
 .main {
-    flex: 1 0 auto;
+    flex: 1 0 auto;    
 }
 
 .footer {
     flex: 0 0 auto;
     background: #05A88D;
-    
 }
 
 .footer__top {
@@ -30,19 +29,77 @@ body {
     justify-content: space-between;
     margin: 0 40px;
     border-bottom: 1px solid #FFFFFF;
-
 }
 
 .footer__left {
-    
+    margin-top: 44px;
+    padding-bottom: 28px;
 }
 
 .footer__right {
-
+    margin-top: 58px;
+    padding-bottom: 16px;
+    text-align: right;
 }
 
 .footer__bottom {
     margin: 0 40px;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.015em;
+    text-transform: capitalize;
+    color: #F1E67D;
+}
+
+.text,
+.address,
+.footer__bottom {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;    
+}
+
+.contact {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.phone {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #F1E67D;
+}
+
+.text {
+    width: 437px;
+    margin-top: 22px;
+}
+
+.address {
+    margin-top: 16px;
+}
+
+.footer__bottom {
+    text-transform: capitalize;
+    margin: 36px 40px 36px;
 }
 
 a {
