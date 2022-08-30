@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let check = +prompt("Введите сумму чека:");
+        function myFunction(check) {
+            if (check >= 750) {
+                result = parseInt(check - (check / 100 * 5));
+                console.log(result);
+            } else {
+                console.log(parseInt(check));
+            }
+        }
+        myFunction(check);
+    </script>
+</body>
+
+</html>
