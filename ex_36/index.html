@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin-bottom: 20px;
+        }
+
+        label {
+            width: 80px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <label for="firstname">Имя:</label>
+        <input id="firstname" type="text">
+    </div>
+    <div>
+        <label for="lastname">Фамилия:</label>
+        <input id="lastname" type="text">
+    </div>
+    <input type="submit">
+    <p>Ответ: <span class="result"></span></p>
+    <script>
+        btnElement = document.querySelector('[type="submit"]');
+        resultElement = document.querySelector(".result");
+        firstName = document.querySelector("#firstname");
+        lastName = document.querySelector("#lastname");
+        
+        btnElement.addEventListener("click", function () {
+            resultElement.textContent = `Здравствуйте, ${firstName.value} ${lastName.value}!`;
+        });
+    </script>
+</body>
+
+</html>
